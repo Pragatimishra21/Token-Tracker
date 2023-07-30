@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const darkTheme = createTheme({
+const lightTheme = createTheme({
   palette: {
     primary: {
       main: "#fff",
@@ -40,7 +40,7 @@ function Header() {
   const history = useHistory();
 
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
